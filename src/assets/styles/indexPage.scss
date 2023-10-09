@@ -1,0 +1,59 @@
+@keyframes moveOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.move-out {
+  animation: moveOut 2s ease-in-out forwards; /* Apply the animation */
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.text a {
+  color: black;
+}
+.nameText {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Quicksand';
+  color: black;
+}
+
+.text {
+  font-family: 'Quicksand';
+  font-size: 18px;
+}
+
+.centered-text {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Alex Brush', cursive;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.timerText {
+  font-family: 'Quicksand';
+  font-size: 23px;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0); /* Transparent black overlay */
+  z-index: 2; /* Ensure the toolbar is above the images */
+}
