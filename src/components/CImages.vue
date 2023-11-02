@@ -104,7 +104,7 @@ export default {
       clearTimeout(uploading.value);
     }
 
-    /*onMounted(async () => {
+    onMounted(async () => {
       // Initialize Firebase Storage
       const storage = getStorage();
 
@@ -122,7 +122,7 @@ export default {
           console.error('Error fetching download URL:', error);
         }
       }
-    });*/
+    });
 
     async function updateUploadProgress() {
       const storage = getStorage();
