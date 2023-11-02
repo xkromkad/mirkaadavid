@@ -31,6 +31,9 @@ npm run format
 ```
 
 
+### Add firebase configuration
+Add firebase.ts to src
+
 
 ### Build the app for production
 ```bash
